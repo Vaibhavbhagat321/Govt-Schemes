@@ -1,0 +1,313 @@
+/* single element, tags */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #333333;
+    margin: 0px;
+    height: 80px;
+    padding: 0px;
+}
+
+footer{
+    background-color: black;
+    position: relative;
+    bottom: 0px;
+    margin: 0px;
+    height: 50px;
+    padding: 0px;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+a  {
+    text-decoration: none;
+}
+
+td{
+    width: 300px;
+}
+
+/* Classes */
+.main-body{
+    margin: 5px auto;
+    width: 80%;
+    min-height: 500px;
+}
+
+.about-body{
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+    min-height: 500px;
+    /* box-sizing: border-box;
+    border: 1px solid black; */
+}
+
+.about-heading{
+    /* box-sizing: border-box;
+    border: 1px solid black; */
+    margin-top: 15px;
+    color: brown;
+    padding: 5px;
+    font: bold 20px 'Segoe UI';
+}
+
+.about-text{
+    /* box-sizing: border-box;
+    border: 1px solid black; */
+    padding: 5px;
+}
+
+.heading {
+    margin: 20px;
+    margin-top: 40px;
+    font: bold 35px 'Segoe UI';
+    color: brown;
+}
+
+.card {
+    margin: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    border-radius: 20px;
+}
+
+.red{
+	color: red;
+}
+
+.card-heading {
+    font: bold 25px 'Segoe UI';
+    margin: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 60%;
+    height: 70px;
+    float: left;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+.card-date {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    font: bold 12px 'Segoe UI';
+    margin: 10px;
+    padding: 10px;
+    width: 35%;
+    height: 70px;
+    text-align: right;
+    /*padding-top: 30px;*/
+    float: right;
+    color: brown;
+}
+
+.card-text {
+    margin: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    /* box-sizing: border-box;
+    border: 1px solid black; */
+}
+
+.admin-button {
+    background-color: #f4f4f4;
+    color: #f4f4f4;
+    border-radius: 10px;
+    margin-right: 20px;
+    color: #333333;
+}
+.admin-button:hover {
+    /* border: 3px solid #379683; */
+    color: blue;
+}
+
+.my-form {
+    margin: 10px;
+    padding: 10px;
+}
+
+.my-form select {
+    width: 40%;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.data-msg {
+    margin: 10px;
+    padding: 10px;
+}
+
+.form-btn {
+    margin: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: #333333;
+    color: #f4f4f4;
+}
+
+.form-btn:hover {
+    color: #5cdb95;
+}
+
+.admin-form {
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 140px auto;
+    padding: 10px;
+    height: 330px;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.admin-input {
+    margin: 5px 5px 5px 2px;
+    height: 10px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.err-msg {
+    margin: 0;
+    padding: 0;
+    color: red;
+    display: block;
+    font-size: 15px;
+}
+
+.menu-button {
+    height: 40px;
+    width: 80px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 25px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.menu-button:hover {
+    color: blue;
+}
+
+.frame-links {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.frame-links:hover {
+    color: chocolate;
+    border: 2px solid brown;
+}
+
+.form-group{
+    padding: 15px;
+}
+
+.mandatory{
+    color: red;
+}
+
+.msg{
+    margin: 10px;
+    padding: 10px;
+}
+
+/* ids */
+
+
+/* child elements */
+header ul{
+    list-style: none;
+}
+
+footer p {
+    color: #f4f4f4;   
+    text-align: center;
+    padding-top: 15px;
+}
+
+header h1{
+    margin: 10px 10px 10px 30px;
+    float: left;
+    padding: 5px 5px 5px 5px;
+    font: normal 35px 'Segoe UI';
+    color: #f4f4f4;
+    /* box-sizing: border-box;
+    border: 1px solid black; */
+}
+
+header ul li{
+    float: right;
+    display: inline-block;
+    margin: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    font: normal 17px 'Segoe UI';
+    /* box-sizing: border-box;
+    border: 1px solid #f4f4f4; */
+}
+    
+ul a li{
+    text-decoration: none;
+    color: #5cdb95;
+}
+
+ul a li:hover{
+    color: rgb(199, 199, 221);
+}
+
+.admin-form div h2 {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font: bold 30px 'Segoe UI';
+}
+
+.admin-form div {
+    text-align: center;
+}
+
+.form-label {
+    margin-left: 35px;
+    margin-top: 10px;
+    padding-left: 35px;
+    text-align: left;
+    display: block;
+}
+
+.form-group label{
+    display: block;
+}
+
+.form-group input[type="text"], .form-group textarea, .form-group select {
+   padding: 5px; 
+   margin: 5px;
+}   
+
+
+.links{
+    list-style: none;
+}
+
+.links li{
+    padding: 4px;
+}
